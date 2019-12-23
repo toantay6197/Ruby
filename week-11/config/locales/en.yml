@@ -1,0 +1,84 @@
+en:
+  static_pages:
+    app_name: "sampleapp"
+    home_nav: "Home"
+    help_nav: "Help"
+    login_nav: "Login"
+    users_nav: "Users"
+    account_nav: "Account"
+    profile_dropdown: "Profile"
+    settings_dropdown: "Settings"
+    logout_dropdown: "Log out"
+    home:
+      page_name: "Home"
+      title: "Sample App - home"
+      full_name: "Nguyen Tu Quyet"
+      author: "Author"
+      base_title: "Ruby on Rails Tutorial Sample App"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      sign_up: "Sign up now!"
+    help:
+      page_name: "Help"
+      title: "Sample App - help"
+      author: "Author"
+      full_name: "Nguyen Tu Quyet"
+      base_title: "Ruby on Rails Tutorial Sample App"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+
+  users:
+    new:
+      sign_up: "Sign up"
+      create_account: "Create my account"
+    index:
+      all_users: "All users"
+    form:
+      confirmation: "Confirmation"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+    edit:
+      save_changes: "Save changes"
+      update_your_profile: "Update your profile"
+      change: "change"
+    update:
+      profile_updated: "Profile updated"
+      flash_login: "Please log in."
+    destroy:
+      delete_noti: "User deleted"
+    cant_find_user: "Can't find user"
+    create:
+      check_your_email: "Please check your email to activate your account."
+      error: "Error, please try again"
+
+  sign_up:
+    welcome: "Welcome to the Sample App!"
+
+  errs:
+    the_form_contains: "The form contains"
+    error: "error"
+
+  sessions:
+    new:
+      login: "Login"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
+
+    create:
+      invalid_message: "Invalid email/password combination"
+      account_not_activated: "Account not activated. Check your email for the activation link."
+
+  account_activation:
+    success_activate: "Active successful"
+    invalid_activate: "Invalid activation link"
+
+  user_mailer:
+    account_activation_subject: "Account activation"
+    password_reset_subject: "Password reset"
+    account_activation:
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"

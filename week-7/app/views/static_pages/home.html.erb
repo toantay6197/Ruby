@@ -1,0 +1,11 @@
+<% provide :title, t(".page_name") %>
+<div class="center jumbotron">
+  <h1><%= t ".title" %></h1>
+  <h3><%= t ".author" %> : <%= t ".full_name" %></h3>
+  <p>
+    Facebook :
+    <%= link_to t(".full_name"), "http://www.facebook.com/tuquyet.hedspi" %>
+    <p><%= l Time.now, format: :short %></p>
+  </p>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>

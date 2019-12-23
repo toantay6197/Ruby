@@ -1,0 +1,29 @@
+<header class = "navbar navbar-fixed-top navbar-inverse">
+  <div class = "container">
+    <%= link_to t("static_pages.app_name"), root_path, class: "logo" %>
+    <nav>
+      <ul class = "nav navbar-nav navbar-right">
+        <li><%= link_to t("static_pages.home_nav"), root_path %></li>
+        <li><%= link_to t("static_pages.help_nav"), help_path %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("static_pages.users_nav"), users_path %></li>
+          <li class="dropdown" >
+            <%= link_to "#", data: {toggle: "dropdown"}, class: "dropdown-toggle" do %>
+                 <%= t("static_pages.account_nav") %> <b class="caret"> </b>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("static_pages.profile_dropdown"), current_user %></li>
+              <li><%= link_to t("static_pages.settings_dropdown"), edit_user_path(current_user) %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t("static_pages.logout_dropdown"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("static_pages.login_nav"), login_path %></li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>

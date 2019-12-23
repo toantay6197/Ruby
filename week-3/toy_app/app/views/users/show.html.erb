@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+<p>
+  <strong>Microposts:</strong>
+  <% index = 0 %>
+  <% Micropost.where(:user_id => @user.id).each do |micropost| %>
+  <div class="micropost-content">
+    <%= index += 1 %>
+    <%= ". " + micropost.content %> |
+    <%= link_to 'Edit', edit_micropost_path(micropost.id) %> |
+    <%= link_to 'Show', show_micropost_path(micropost.id) %>
+  </div>
+<% end %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @micropost.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= User.where(:id => @micropost.user_id).first.name %>
+</p>
+
+<%= link_to 'Edit', edit_micropost_path(@micropost) %> |
+<%= Rails.application.routes.recognize_path(request.referrer)[:controller] == "microposts" ? (link_to 'Back', microposts_path) : (link_to 'Back', users_path) %>

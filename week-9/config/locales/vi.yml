@@ -1,0 +1,52 @@
+vi:
+  static_pages:
+    app_name: "Trang mẫu"
+    home_nav: "Trang chủ"
+    help_nav: "Trợ giúp"
+    login_nav: "Đăng nhập"
+    users_nav: "Người dùng"
+    account_nav: "Tài khoản"
+    profile_dropdown: "Thông tin"
+    settings_dropdown: "Cài đặt"
+    logout_dropdown: "Đăng xuất"
+    home:
+      title: "Trang mẫu - Trang chủ"
+      full_name: "Nguyễn Tư Quyết"
+      author: "Tác giả"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      sign_up: "Đăng nhập ngay!"
+    help:
+      title: "Trang mẫu - Trợ giúp"
+      full_name: "Nguyễn Tư Quyết"
+      author: "Tác giả"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+
+  users:
+      new:
+        confirmation: "Nhập lại mật khẩu"
+        create: "Tạo tài khoản"
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        sign_up: "Đăng kí"
+
+  sign_up:
+    welcome: "Chào mừng bạn đến với App mẫu"
+
+  errs:
+    the_form_contains: "Form này có"
+    error: "Lỗi"
+
+  sessions:
+      new:
+        login: "Đăng nhập"
+        new_user: "Người dùng mới?"
+        sign_up_now: "Tạo tài khoản ngay"
+        remember_me: "Nhớ tôi"
+
+      create:
+        invalid_message: "Sai email hoặc password"

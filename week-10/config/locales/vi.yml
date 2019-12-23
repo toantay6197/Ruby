@@ -1,0 +1,69 @@
+vi:
+  static_pages:
+    app_name: "Trang mẫu"
+    home_nav: "Trang chủ"
+    help_nav: "Trợ giúp"
+    login_nav: "Đăng nhập"
+    users_nav: "Người dùng"
+    account_nav: "Tài khoản"
+    profile_dropdown: "Thông tin"
+    settings_dropdown: "Cài đặt"
+    logout_dropdown: "Đăng xuất"
+    home:
+      page_name: "Trang chủ"
+      title: "Trang mẫu - Trang chủ"
+      full_name: "Nguyễn Tư Quyết"
+      author: "Tác giả"
+      base_title: "Ruby on Rails Tutorial App mẫu"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      sign_up: "Đăng nhập ngay!"
+    help:
+      page_name: "Trợ giúp"
+      title: "Trang mẫu - Trợ giúp"
+      full_name: "Nguyễn Tư Quyết"
+      author: "Tác giả"
+      base_title: "Ruby on Rails Tutorial App mẫu"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+
+  users:
+    new:
+      sign_up: "Đăng kí"
+      create_account: "Tạo tài khoản"
+    index:
+      all_users: "Tất cả user"
+    form:
+      confirmation: "Nhập lại mật khẩu"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+    edit:
+      save_changes: "Lưu thay đổi"
+      update_your_profile: "Update trang cá nhân"
+      change: "Thay đổi"
+    update:
+      profile_updated: "Đã update trang cá nhân"
+      flash_login: "Xin hãy đăng nhập."
+    destroy:
+       delete_noti: "Đã xoá user"
+    cant_find_user: "Không thể xoá user"
+
+  sign_up:
+    welcome: "Chào mừng bạn đến với App mẫu"
+
+  errs:
+    the_form_contains: "Form này có"
+    error: "Lỗi"
+
+  sessions:
+      new:
+        login: "Đăng nhập"
+        new_user: "Người dùng mới?"
+        sign_up_now: "Tạo tài khoản ngay"
+        remember_me: "Nhớ tôi"
+
+      create:
+        invalid_message: "Sai email hoặc password"
